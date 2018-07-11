@@ -16,12 +16,12 @@
         
         $stmt = $pdo->query("select * from 4each_keijiban");
         
-        while($row = $stmt->fetch()){
-            echo $row['handlename'];
-            echo $row['title'];
-            echo $row['comments'];
-        }
         ?>
+        
+        <img src="4eachblog_logo.jpg">
+         <header>
+        <li>
+            <ul> 
     
     </body>
 </html>
