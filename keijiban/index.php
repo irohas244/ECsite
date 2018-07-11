@@ -12,7 +12,7 @@
         <?php
         
         mb_internal_encoding("utf8");
-        $pdo = newPDO("mysql:dbname=lesson01;host=localhost;","root","");
+        $pdo = newPDO("mysql:dbname=lesson01;host=localhost;","root","mysql");
         
         $stmt = $pdo->query("select * from 4each_keijiban");
         
