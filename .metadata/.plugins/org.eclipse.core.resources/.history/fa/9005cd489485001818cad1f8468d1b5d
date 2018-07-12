@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		
+		char[] c = {'x','y','Z'};
+		
+      
+       System.out.println(c[0]);
+}
+}
