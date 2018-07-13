@@ -1,0 +1,29 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		Person aibo=new Person();
+
+		aibo.name="aibo";
+		
+		System.out.println(aibo.name);
+		
+
+		Person asimo=new Person();
+		
+		asimo.name="asimo";
+		
+		System.out.println(asimo.name);
+		
+
+		Person pepper=new Person();
+		pepper.name="pepper";
+		System.out.println(pepper.name);
+
+		Person doraemon=new Person();
+		doraemon.name="doraemon";
+		System.out.println(doraemon.name);
+	}
+}
+	
+	

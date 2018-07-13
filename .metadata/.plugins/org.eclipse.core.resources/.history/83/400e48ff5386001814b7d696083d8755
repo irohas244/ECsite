@@ -1,0 +1,21 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+		String name = new String();
+		name="木村次郎";
+		
+		String age = new String();
+		age="18";
+		
+		System.out.println(name);
+		System.out.println(age);
+		
+		
+		
+
+	}
+
+}
