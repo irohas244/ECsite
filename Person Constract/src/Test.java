@@ -13,14 +13,17 @@ public class Test {
 		System.out.println(jiro.name);
 		System.out.println(jiro.age);
 
-		Person saburo=new Person("saburo.0");
+		Person saburo=new Person("saburo");
 		System.out.println(saburo.name);
+		System.out.println(saburo.age);
 
-		Person def=new Person("名前なし.25");
+		Person def=new Person(25);
 		System.out.println(def.name);
+		System.out.println(def.age);
 
-		Person ghi=new Person("hanako.17");
+		Person ghi=new Person(17,"hanako");
 		System.out.println(ghi.name);
+		System.out.println(ghi.age);
 
 }
 }

@@ -1,5 +1,5 @@
 
-public class SmartPhone extends Mp3player {
+public class Smartphone extends Mp3player {
 
 	public void call(){
 		System.out.println("電話");
