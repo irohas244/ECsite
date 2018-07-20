@@ -6,4 +6,6 @@
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="DBconnector"/>
+<fullyQualifiedTypeName name="com.internousdev.login.util.DBConnector"/>
+<fullyQualifiedTypeName name="com.internousdev.login.dto.loginDTO"/>
 </qualifiedTypeNameHistroy>
