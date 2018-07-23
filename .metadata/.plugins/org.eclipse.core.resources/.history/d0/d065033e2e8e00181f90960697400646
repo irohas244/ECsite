@@ -1,0 +1,8 @@
+package com.internousdev.webproj5.action;
+
+public class Snippet {
+	public static void main(String[] args) {
+		import com.internousdev.webproj5.dto.LoginDTO;
+	}
+}
+

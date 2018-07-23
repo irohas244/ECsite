@@ -1,0 +1,10 @@
+package com.internousdev.webproj5.action;
+
+public class WelcomeAction {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+	}
+
+}
