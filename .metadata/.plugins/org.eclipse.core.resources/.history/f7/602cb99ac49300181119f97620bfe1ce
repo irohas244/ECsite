@@ -1,0 +1,18 @@
+package javax;
+
+public class git {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		introduceOneself();
+	}
+		public static void introduceOneself(){
+			String name ="aaaa";
+			int age = 34;
+
+			System.out.println(name);
+		}
+
+	}
+
+

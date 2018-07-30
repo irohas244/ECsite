@@ -1,4 +1,4 @@
-drop datebase if exists testdb;
+drop database if exists testdb;
 create database testdb;
 use testdb;
 
@@ -9,8 +9,8 @@ password varchar(255)
 );
 
 insert into users values(1,"taro","123");
-insert into users values(2,"taro","456");
-insert into users values(3,"taro","789");
+insert into users values(2,"jiro","456");
+insert into users values(3,"hanako","789");
 
 create table inquiry(
 name varchar(255),

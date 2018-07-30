@@ -8,4 +8,5 @@
 <fullyQualifiedTypeName name="DBconnector"/>
 <fullyQualifiedTypeName name="com.internousdev.login.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.login.dto.loginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.LoginDTO"/>
 </qualifiedTypeNameHistroy>

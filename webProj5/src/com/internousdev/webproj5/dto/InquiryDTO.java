@@ -10,6 +10,10 @@ public class InquiryDTO {
 		return name;
 	}
 
+	public void setName(String Name){
+		this.name = name;
+	}
+
 	public String getQtype(){
 		return qtype;
 	}
