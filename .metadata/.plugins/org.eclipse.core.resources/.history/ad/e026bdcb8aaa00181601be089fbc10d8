@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Sword s = new Sword();
+		s.name = "炎の剣";
+		s.damage = 10;
+		Hero h1 = new Hero();
+		h1.name = "みなと";
+		h1.hp = 100;
+		h1.sword = s;
+		System.out.println(h1.sword.name);
+
+
+
+	}
+
+}

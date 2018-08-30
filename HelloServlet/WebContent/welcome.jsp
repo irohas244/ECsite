@@ -7,12 +7,12 @@
 <title>WELCOME</title>
 </head>
 <body>
-名前とパスワードを入力してください。
+名前とパスワードを入力してください
 <form method="post" action="WelcomeServlet">
+//postメソッドはフォームに入力した情報を登録するような場合に使用する。
 <input type="text" name="username">
-<input type="password" name="password">
-<input type="submit" name="送信">
-
+<input type="pasword" name="password">
+<input type="submit" value="送信">
 </form>
 </body>
 </html>

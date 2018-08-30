@@ -10,11 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class testServlet
+ * Servlet implementation class TestServlet
  */
-@WebServlet("/testServlet")
+@WebServlet("/TestServlet")
 public class TestServlet extends HttpServlet {
-
 
 
     public TestServlet() {
@@ -22,45 +21,41 @@ public class TestServlet extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		response.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html); charset=UTF-8");
 
-		request.setCharacterEncoding("UTF-8");
-		response.setContentType("text/html; charset=UTF-8");
-
-		String username = request.getParameter("username");
-		String password = request.getParameter("password");
-
+		String username=request.getParameter("username");
+		String password=request.getParameter("password");
 		System.out.println(username);
 		System.out.println(password);
 
 		PrintWriter out=response.getWriter();
+
 		out.println("<html><head></head><body><br>"+username+"<br>"+password+"</body></html>");
+
 	}
 
-
-
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		response.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html); charset=UTF-8");
 
-		request.setCharacterEncoding("UTF-8");
-		response.setContentType("text/html; charset=UTF-8");
-
-		String username = request.getParameter("username");
-		String password = request.getParameter("password");
-
+		String username=request.getParameter("username");
+		String password=request.getParameter("password");
 		System.out.println(username);
 		System.out.println(password);
 
 		PrintWriter out=response.getWriter();
 
 		out.println("<html><head></head><body><br>"+username+"<br>"+password+"</body></html>");
-
-
-
-
 	}
 
 }

@@ -9,4 +9,11 @@
 <fullyQualifiedTypeName name="com.internousdev.login.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.internousdev.login.dto.loginDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.internousdev.login.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj2.util.DBConnector"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj2.dao.TestDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="sun.rmi.transport.Connection"/>
 </qualifiedTypeNameHistroy>

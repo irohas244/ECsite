@@ -1,0 +1,29 @@
+package javax;
+
+public class Main {
+
+
+
+	public static void main(String[] args) {
+
+
+		}
+		// TODO 自動生成されたメソッド・スタブ
+	public static void introduceOneself(){
+		String name = "TAKEDA";
+		int age = 27;
+		double height = 186.4;
+		char gender = '男';
+
+		System.out.println(name + age + height + gender);
+
+
+
+
+
+
+
+	}
+
+	}
+

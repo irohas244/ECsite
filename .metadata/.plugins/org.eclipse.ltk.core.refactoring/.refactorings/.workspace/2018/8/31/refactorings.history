@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;example&apos; を &apos;example!&apos; に変更します" description="リソース &apos;example&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/example" name="example!" stamp="1533263244176" updateReferences="true"/>&#x0A;<refactoring comment="リソース名 &apos;example!&apos; を &apos;example&apos; に変更します" description="リソース &apos;example!&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/example!" name="example" stamp="1533263271945" updateReferences="true"/>
+</session>

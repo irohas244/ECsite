@@ -46,9 +46,9 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 
 		if(res > 0) {
 			myPageList = null;
-			setMessage("商品情報を正しく削除しました。");
+			setMessage("購入履歴を正しく削除しました。");
 		} else if(res == 0) {
-			setMessage("商品情報の削除に失敗しました。");
+			setMessage("購入履歴の削除に失敗しました。");
 		}
 	}
 	public void setDeleteFlg(String deleteFlg) {

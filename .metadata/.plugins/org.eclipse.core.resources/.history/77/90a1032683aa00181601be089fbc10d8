@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		Hero h = new Hero(); //勇者を生成
+		h.name = "みなと";
+		h.hp = 100;
+		System.out.println("勇者" + h.name + "を生み出した");
+
+	}
+
+}

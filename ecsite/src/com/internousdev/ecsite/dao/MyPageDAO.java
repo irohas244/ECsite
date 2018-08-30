@@ -24,7 +24,7 @@ public class MyPageDAO {
 			preparedStatement.setString(2, user_master_id);
 
 			ResultSet resultSet = preparedStatement.executeQuery();
-
+			
 			while(resultSet.next()) {
 				MyPageDTO dto = new MyPageDTO();
 				dto.setId(resultSet.getString("id"));

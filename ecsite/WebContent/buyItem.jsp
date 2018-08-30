@@ -102,6 +102,10 @@ table {
 				<p>
 					マイぺージは<a href='<s:url action="MyPageAction" />'>こちら </a>
 				</p>
+				<br>
+				<br>
+				<p><a href='<s:url action="ManageAction" />'><b>管理者画面</b></a></p>
+
 			</div>
 		</div>
 	</div>

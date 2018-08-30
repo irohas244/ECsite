@@ -75,6 +75,16 @@ table {
 		<div id="text-link">
 			<p>新規ユーザー登録は <a href='<s:url action="UserCreateAction" />'>こちら</a></p>
 			<p>Homeへ戻る場合は <a href='<s:url action="GoHomeAction" />'>こちら</a></p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p><a href='<s:url action="InquiryAction" />'><b>お問い合わせフォーム</b></a></p>
 		</div>
 	</div>
 </div>

@@ -5,6 +5,8 @@ drop database if exists ecsite;
 create database if not exists ecsite;
 use ecsite;
 
+
+
 drop table if exists login_user_transaction;
 
 create table login_user_transaction(
@@ -40,5 +42,15 @@ insert_date datetime,
 delete_date datetime
 );
 
+create table user_inquiry_transaction(
+id int not null primary key auto_increment,
+user_name varchar(30),
+user_gender varchar(5),
+user_inquiry varchar(130)
+);
+
 INSERT INTO item_info_transaction(item_name, item_price, item_stock)VALUES("ノートBOOK",100,50);
+INSERT INTO item_info_transaction(item_name, item_price, item_stock)VALUES("冷蔵庫"300,50);
+INSERT INTO item_info_transaction(item_name, item_price, item_stock)VALUES("TV"200,50);
 INSERT INTO login_user_transaction(login_id, login_pass, user_name) VALUES("internous","internous01","test");
+

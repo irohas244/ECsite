@@ -1,0 +1,28 @@
+
+public class Hero { //クラスの宣言
+	Hero (string name){
+		this.hp = 100;
+		this.name = name;
+
+	int hp;             //フィールド　HPの宣言
+	Sword sword;
+	}
+	void attack(){
+		System.out.println(this.name + "は攻撃した");
+	}
+
+
+
+	void sleep(){
+		this.hp = 100;          //自分自身のHPフィールド
+		System.out.println(this.name + "は眠って回復した");
+	}
+	void run(){
+		System.out.println(this.name + "は逃げ出した");
+	}
+	Hero(String name){
+		this.hp = 100;
+		this.name = name;
+	}
+
+}

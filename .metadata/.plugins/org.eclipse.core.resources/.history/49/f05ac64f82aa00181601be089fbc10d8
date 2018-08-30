@@ -1,0 +1,29 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+			String name = "abc";
+			int hp = 50;
+			final int MAX_HP = 50;
+			int mp = 10;
+			final int MAX_MP = 10;
+		}
+
+			public static void selfAid(){
+
+
+				this.mp -= 5;
+
+
+				System.out.println();
+
+		}
+
+
+		   }
+
+
+}
+
+
+

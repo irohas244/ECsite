@@ -1,7 +1,0 @@
-package javax;
-
-public class Matanago {
- int hp;
- final int level = 10;
-
-}

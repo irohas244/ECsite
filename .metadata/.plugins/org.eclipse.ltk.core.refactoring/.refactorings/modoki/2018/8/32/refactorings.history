@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Login.java&apos; to &apos;modoki/src/model&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;modoki&apos;&#x0D;&#x0A;- 宛先要素: &apos;modoki/src/model&apos;&#x0D;&#x0A;- オリジナル要素: &apos;Login.java&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="/src&lt;model" element1="/src&lt;{Login.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1533538371128" units="1" version="1.0"/>
+</session>
