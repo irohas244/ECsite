@@ -79,7 +79,7 @@ table {
 						</tr>
 					</s:iterator>
 				</table>
-				<s:form action="UserListAction">
+				<s:form action="UserListDeleteAction">
 					<input type="hidden" name="deleteFlg" value="1">
 					<s:submit value="削除" method="delete" />
 				</s:form>

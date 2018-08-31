@@ -61,7 +61,7 @@ table {
 	</div>
 	<div id="main">
 		<div id="top">
-			<p>MyPage</p>
+			<p>商品管理画面</p>
 		</div>
 		<div>
 

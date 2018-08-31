@@ -6,13 +6,13 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
-import com.internousdev.ecsite.dao.UserListDAO;
+import com.internousdev.ecsite.dao.ManagementUserListDAO;
 import com.internousdev.ecsite.dto.UserListDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class ManagementUserListAction extends ActionSupport implements SessionAware {
 	public Map<String, Object> session;
-	private UserListDAO userListDAO = new UserListDAO();
+	private ManagementUserListDAO managementUserListDAO = new ManagementUserListDAO();
 	private ArrayList<UserListDTO> userList = new ArrayList<UserListDTO>();
 	private String deleteFlg;
 	private String message;
@@ -24,7 +24,7 @@ public class ManagementUserListAction extends ActionSupport implements SessionAw
 		}
 
 		if(deleteFlg == null) {
-			userList= userListDAO.getUserListInfo();
+			userList= managementUserListDAO.getUserListInfo();
 		} else if(deleteFlg.equals("1")) {
 //			delete();
 		}
@@ -34,27 +34,27 @@ public class ManagementUserListAction extends ActionSupport implements SessionAw
 
 
 
-//	public void delete() throws SQLException {
-//		String item_transaction_id = session.get("id").toString();
-//		String user_master_id = session.get("login_user_id").toString();
-//
-//		int res = itemListDAO.buyItemHistoryDelete(item_transaction_id, user_master_id);
-//
-//		if(res > 0) {
-//			itemList = null;
-//			setMessage("商品情報を正しく削除しました。");
-//		} else if(res == 0) {
-//			setMessage("商品情報の削除に失敗しました。");
-//		}
-//	}
-//	public void setDeleteFlg(String deleteFlg) {
-//		this.deleteFlg = deleteFlg;
-//	public ItemListDAO getItemListDAO() {
-//		return itemListDAO;
-//	}
+	public void delete() throws SQLException {
 
-	public void setUserListDAO(UserListDAO userListDAO) {
-		this.userListDAO = userListDAO;
+
+		int res = managementUserListDAO.userListDelete();
+
+		if(res > 0) {
+			userList = null;
+			setMessage("ユーザー情報を正しく削除しました。");
+		} else if(res == 0) {
+			setMessage("ユーザー情報の削除に失敗しました。");
+		}
+	}
+	public void setDeleteFlg(String deleteFlg) {
+		this.deleteFlg = deleteFlg;
+	}
+	public ManagementUserListDAO getItemListDAO() {
+		return managementUserListDAO;
+	}
+
+	public void setUserListDAO(ManagementUserListDAO managementUserListDAO) {
+		this.managementUserListDAO = managementUserListDAO;
 	}
 
 	public ArrayList<UserListDTO> getuserList() {
@@ -69,9 +69,7 @@ public class ManagementUserListAction extends ActionSupport implements SessionAw
 		return deleteFlg;
 	}
 
-	public void setDeleteFlg(String deleteFlg) {
-		this.deleteFlg = deleteFlg;
-	}
+
 
 	public Map<String, Object> getSession() {
 		return session;

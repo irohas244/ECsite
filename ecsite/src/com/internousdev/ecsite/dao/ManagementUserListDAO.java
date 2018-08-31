@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import com.internousdev.ecsite.dto.UserListDTO;
 import com.internousdev.ecsite.util.DBConnector;
 
-public class UserListDAO {
+public class ManagementUserListDAO {
 	private DBConnector dbConnector = new DBConnector();
 	private Connection connection = dbConnector.getConnection();
 
