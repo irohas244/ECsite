@@ -35,10 +35,9 @@ public class ManagementItemListAction extends ActionSupport implements SessionAw
 
 
 	public void delete() throws SQLException {
-		String item_transaction_id = session.get("id").toString();
-		String user_master_id = session.get("login_user_id").toString();
 
-		int res = itemListDAO.buyItemHistoryDelete(item_transaction_id, user_master_id);
+
+		int res = itemListDAO.itemListDelete();
 
 		if(res > 0) {
 			itemList = null;

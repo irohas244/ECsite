@@ -10,11 +10,10 @@ import com.internousdev.ecsite.dto.ItemListDTO;
 import com.internousdev.ecsite.util.DBConnector;
 
 public class ItemListDAO {
-	private DBConnector dbConnector = new DBConnector();
-	private Connection connection = dbConnector.getConnection();
-
 
 	public ArrayList<ItemListDTO> getItemListInfo() {
+		DBConnector dbConnector = new DBConnector();
+		Connection connection = dbConnector.getConnection();
 		String sql = "SELECT  item_name, item_price,item_stock FROM item_info_transaction";
 		ArrayList<ItemListDTO> itemListDTO = new ArrayList<ItemListDTO>();
 
@@ -36,15 +35,15 @@ public class ItemListDAO {
 
 
 
-public int buyItemHistoryDelete
-(String item_transaction_id, String user_master_id) throws SQLException {
-	String sql = "DELETE FROM user_buy_item_transaction WHERE	item_transaction_id = ? AND user_master_id = ?";
+public int itemListDelete() throws SQLException {
+	DBConnector dbConnector = new DBConnector();
+	Connection connection = dbConnector.getConnection();
+	String sql = "DELETE FROM item_info_transaction";
 	PreparedStatement preparedStatement;
 	int result =0;
 	try {
 		preparedStatement = connection.prepareStatement(sql);
-		preparedStatement.setString(1, item_transaction_id);
-		preparedStatement.setString(2, user_master_id);
+
 		result = preparedStatement.executeUpdate();
 	} catch (SQLException e) {
 		e.printStackTrace();
