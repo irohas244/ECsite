@@ -12,7 +12,8 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class ManagementUserListAction extends ActionSupport implements SessionAware {
 	public Map<String, Object> session;
-	private ManagementUserListDAO managementUserListDAO = new ManagementUserListDAO();
+	private ManagementU
+	serListDAO managementUserListDAO = new ManagementUserListDAO();
 	private ArrayList<UserListDTO> userList = new ArrayList<UserListDTO>();
 	private String deleteFlg;
 	private String message;

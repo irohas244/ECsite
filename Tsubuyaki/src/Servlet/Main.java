@@ -21,20 +21,20 @@ import model.User;
 @WebServlet("/Main")
 public class Main extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		
+
+
 		//リクエストパラメータの取得
 		request.setCharacterEncoding("UTF-8");
 		String text = request.getParameter("text");
-		
+
 		//入力値チェック
 		if(text != null  && text.length() != 0 ){
 			//アプリケーションスコープに保存されたつぶやきリストを取得
 			ServletContext application = this.getServletContext();
 			List<Mutter>mutterList = (List<Mutter>)
-			
+
 		}
 	}
 
