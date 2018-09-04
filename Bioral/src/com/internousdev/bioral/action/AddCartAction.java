@@ -1,5 +1,5 @@
 package com.internousdev.bioral.action;
 
-public class AddCartAction {
+public class AddCartAction extends ActionSupport implements {
 
 }

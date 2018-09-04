@@ -1,0 +1,15 @@
+
+public class Main {
+
+		String name = "すけさん";
+		int lv = 45;
+
+		public static void main(String[] args){
+
+		}
+
+		static void putJyosyou(){
+			System.out.println("魔王が");
+		}
+
+}

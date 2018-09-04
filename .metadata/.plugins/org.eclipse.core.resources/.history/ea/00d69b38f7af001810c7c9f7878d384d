@@ -1,0 +1,20 @@
+
+public class Main {
+	static String name = "すけさん";
+	static int lv = 45;
+
+		public static void main(String[] args){
+			putJyosyou();
+
+			if(lv < 40){
+				putGameOver
+			}
+
+		}
+
+		static void putJyosyou(){
+			System.out.println("魔王が" + "世界を滅ぼそうとしている");
+			System.out.println();
+		}
+
+}

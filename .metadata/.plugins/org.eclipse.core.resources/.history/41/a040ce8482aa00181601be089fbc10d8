@@ -1,8 +1,0 @@
-
-public class Cleric {
-	String name;
-	int hp = 50;
-	final int MAX_HP = 50;
-		
-
-}

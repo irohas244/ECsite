@@ -1,6 +1,7 @@
 package com.internousdev.sampleweb.action;
 
 import java.util.ArrayList;
+
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
@@ -12,7 +13,8 @@ import com.internousdev.sampleweb.dao.CartInfoDAO;
 import com.internousdev.sampleweb.dto.CartInfoDTO;
 import com.internousdev.sampleweb.util.CommonUtility;
 import com.opensymphony.xwork2.ActionSupport;
-
+// sesseionaware ページ間で変数の内容を維持するための仕組みのこと。
+// implements interfaceに定義されているメソッドを定義しているクラス
 public class AddCartAction extends ActionSupport implements SessionAware{
 
 	private int productId;
@@ -27,7 +29,8 @@ public class AddCartAction extends ActionSupport implements SessionAware{
 	private String productDescription;
 
 	private String categoryId;
-
+    
+	
 	private Map<String, Object> session;
 	public String execute() {
 		String result=ERROR;
