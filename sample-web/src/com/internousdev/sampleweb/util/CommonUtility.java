@@ -3,11 +3,12 @@ package com.internousdev.sampleweb.util;
 import java.util.ArrayList;
 import java.util.List;
 
+// カート内のページでどれだけ商品を表示するか設定する部品。
 public class CommonUtility {
 	public String getRamdomValue() {
 		String value="";
 		double d;
-		for(int i=1; i<=16; i++) {
+		for(int i=1; i<=16; i++) {     
 			d=Math.random() * 10;
 			value=value+((int)d);
 		}
@@ -17,7 +18,7 @@ public class CommonUtility {
 	public String[] parseArrayList(String s) {
 		return s.split(", ",0);
 	}
-
+      
 	public <E> List<List<E>>  devideList(List<E> list, int size){
 		if (list == null || list.isEmpty() || size <= 0) {
 			return null;

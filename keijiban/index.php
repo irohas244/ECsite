@@ -56,14 +56,14 @@ $stmt = $pdo->query("select * from 4each_keijiban");
         
         <h4>オススメリンク</h4>
         <li>
-            <ul>インターノウス株式会社</ul>
+        <ul>インターノウス株式会社</ul>
         <ul>XAMPPのダウンロード</ul>
         <ul>Ｅｃｌｉｐｓｅのダウンロード</ul>
         <ul>hＢｒａｃｋｅｔｓのダウンロード</ul>
             </li>
         <h4>カテゴリ</h4>
         <li>
-            <ul>HTML</ul>
+        <ul>HTML</ul>
         <ul>PHP</ul>
         <ul>MySQL</ul>
         <ul>javascript</ul>
